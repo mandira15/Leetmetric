@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetrics</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>LeetMetrics</h1>
+        </div>
+        <div class="user-container">
+            <p>Enter your username below:</p>
+            <div class="user-input-container">
+                <input type="text" id="username-input" placeholder="Username">
+                <button id="search-button">search</button>
+            </div>
+        </div>
+        <div class="stats-container">
+            <div class="progress">
+                <div class="circle" id="easy-progress-circle">
+                    <div class="easy-progress">
+                        <span class="label"id="easy-label">Easy</span>
+                        <span class="easy-count" id="easy-solved"></span>
+                    </div>
+                </div>
+                <div class="circle" id="medium-progress-circle">
+                    <span class="label" id="medium-label">Medium</span>
+                    <span class="medium-count" id="medium-solved"></span>
+                </div>
+                <div class="circle" id="hard-progress-circle">
+                    <span class="label" id="hard-label">Hard</span>
+                    <span class="hard-count" id="hard-solved"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2021 LeetMetrics. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
